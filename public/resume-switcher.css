@@ -1,0 +1,1 @@
+.resume-pair{display:flex;align-items:stretch;gap:10px;flex-wrap:wrap}.resume-pair .resume{min-width:0;flex:1 1 220px}.resume-lang{cursor:pointer}.resume-lang small{white-space:nowrap}@media(max-width:640px){.resume-pair{width:100%;flex-direction:column}.resume-pair .resume{width:100%;flex:1 1 auto}}
