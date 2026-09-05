@@ -14,9 +14,10 @@ Production cybersecurity portfolio for Bin Nguyen.
 
 ## Resume
 
-The live portfolio includes a downloadable English PDF resume at:
+The live portfolio provides two downloadable PDF resume versions:
 
-`/resume/Nguyen-Ngoc-Khai-Resume.pdf`
+- English: `/resume/Nguyen-Ngoc-Khai-Resume-English.pdf`
+- Tiếng Việt: `/resume/Nguyen-Ngoc-Khai-Resume.pdf`
 
 ## Local development
 
