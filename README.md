@@ -1,6 +1,6 @@
 # BINNGUYEN-SEC Portfolio
 
-Production cybersecurity portfolio for Bin Nguyen.
+Cybersecurity portfolio focused on Network Security, SOC Operations, Threat Hunting and Detection Engineering.
 
 ## Stack
 
@@ -14,10 +14,18 @@ Production cybersecurity portfolio for Bin Nguyen.
 
 ## Resume
 
-The live portfolio provides two downloadable PDF resume versions:
+The portfolio provides one downloadable resume:
 
 - English: `/resume/Nguyen-Ngoc-Khai-Resume-English.pdf`
-- Tiếng Việt: `/resume/Nguyen-Ngoc-Khai-Resume.pdf`
+
+## Competition certificate images
+
+The Achievements section has two image slots. Upload the certificate images to these exact paths to make them appear on the live portfolio:
+
+- Google SecOps Chronicle CTF — Cymbal Investigation: `public/certificates/google-secops-cymbal.png`
+- Pointer Overflow CTF 2026: `public/certificates/pointer-overflow-ctf.png`
+
+Use PNG files with the exact filenames above. The placeholders remain visible until the images are present.
 
 ## Local development
 
@@ -30,6 +38,7 @@ npm run dev
 
 ```bash
 npm run build
+npm run preview
 ```
 
 ## Deployment
