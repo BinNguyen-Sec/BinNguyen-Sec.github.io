@@ -167,6 +167,7 @@ type Award = {
   subtitle: string;
   date: string;
   image: string;
+  document?: string;
   uploadPath: string;
   alt: string;
   details: string[];
@@ -197,18 +198,18 @@ const awards: Award[] = [
 ];
 
 const CertificateSlot = ({ award }: { award: Award }) => (
-  <div className="certificate-visual">
-    <img
+  <div className={'certificate-visual' + (award.document ? ' has-document' : '')}>
+    {award.document ? <iframe src={award.document + '#toolbar=0&navpanes=0'} title={award.alt} /> : <img
       src={award.image}
       alt={award.alt}
       onLoad={(event) => event.currentTarget.parentElement?.classList.add('has-image')}
-    />
-    <div className="certificate-placeholder">
+    />}
+    {!award.document && <div className="certificate-placeholder">
       <span>IMAGE SLOT / CERTIFICATE</span>
       <strong>UPLOAD CERTIFICATE IMAGE</strong>
       <small>{award.uploadPath}</small>
       <em>PNG · The image will appear here after upload.</em>
-    </div>
+    </div>}
   </div>
 );
 
