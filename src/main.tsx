@@ -178,8 +178,8 @@ const awards: Award[] = [
     title: 'GOOGLE SECOPS CHRONICLE CTF',
     subtitle: 'Cymbal Investigation',
     date: '29 OCT – 01 NOV 2026',
-    image: '/certificates/google-secops-cymbal.png',
-    uploadPath: 'public/certificates/google-secops-cymbal.png',
+    image: '/certificates/Certificate-Khysdns.pdf',
+    uploadPath: 'public/certificates/Certificate-Khysdns.pdf',
     alt: 'Google SecOps Chronicle Cymbal Investigation certificate',
     details: ['18 / 18 CHALLENGES', '2,075 POINTS', 'TEAM RANK 584 / 1,716'],
     accent: 'blue'
