@@ -180,6 +180,7 @@ const awards: Award[] = [
     subtitle: 'Cymbal Investigation',
     date: '29 OCT – 01 NOV 2026',
     image: '/certificates/Certificate-Khysdns.pdf',
+    document: '/certificates/Certificate-Khysdns.pdf',
     uploadPath: 'public/certificates/Certificate-Khysdns.pdf',
     alt: 'Google SecOps Chronicle Cymbal Investigation certificate',
     details: ['18 / 18 CHALLENGES', '2,075 POINTS', 'TEAM RANK 584 / 1,716'],
@@ -319,7 +320,7 @@ function Home() {
           <Reveal>
             <div className="eyebrow">03 / COMPETITIONS & CERTIFICATES</div>
             <h2 className="mega">CHALLENGES.<br />INVESTIGATIONS.<br />PROOF.</h2>
-            <p className="section-intro">Selected competition achievements. Certificate images are reserved below and will appear once uploaded.</p>
+            <p className="section-intro">Selected competition achievements. The Google SecOps Chronicle CTF certificate is embedded below; the Pointer Overflow certificate slot is reserved for its image.</p>
             <div className="achievement-grid">
               {awards.map((award) => (
                 <article className={'achievement ' + award.accent} key={award.title}>
