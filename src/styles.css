@@ -42,3 +42,7 @@
   .certificate-placeholder small{font-size:.58rem}
   .proof-scope{padding-bottom:60px}
 }
+
+.certificate-visual iframe{display:block;width:100%;height:100%;min-height:250px;border:0;background:#0b0d10}
+.certificate-visual.has-document{aspect-ratio:1.62/1;background:#0b0d10;border-style:solid}
+.certificate-visual.has-document .certificate-placeholder{display:none}
