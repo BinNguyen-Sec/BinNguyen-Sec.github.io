@@ -14,18 +14,18 @@ Cybersecurity portfolio focused on Network Security, SOC Operations, Threat Hunt
 
 ## Resume
 
-The portfolio provides one downloadable resume:
+The portfolio provides one downloadable English resume:
 
-- English: `/resume/Nguyen-Ngoc-Khai-Resume-English.pdf`
+- English: `/resume/Nguyen_Ngoc_Khai_Cybersecurity_Resume_2026_Balanced.pdf`
 
-## Competition certificate images
+## Competition certificates
 
-The Achievements section has two image slots. Upload the certificate images to these exact paths to make them appear on the live portfolio:
+The Achievements section embeds both completion certificates as PDFs:
 
-- Google SecOps Chronicle CTF — Cymbal Investigation: `public/certificates/google-secops-cymbal.png`
-- Pointer Overflow CTF 2026: `public/certificates/pointer-overflow-ctf.png`
+- Google SecOps Chronicle CTF — Cymbal Investigation: `public/certificates/Certificate-Khysdns.pdf`
+- Pointer Overflow CTF 2026: `public/certificates/POCTF-2026-01702.pdf`
 
-Use PNG files with the exact filenames above. The placeholders remain visible until the images are present.
+The PDF files are served from the `/certificates/` path and displayed in embedded document frames on the portfolio.
 
 ## Local development
 
