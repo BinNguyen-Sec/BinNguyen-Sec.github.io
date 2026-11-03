@@ -190,8 +190,9 @@ const awards: Award[] = [
     title: 'POINTER OVERFLOW CTF 2026',
     subtitle: 'Participant & Solver',
     date: 'OCT 2026',
-    image: '/certificates/pointer-overflow-ctf.png',
-    uploadPath: 'public/certificates/pointer-overflow-ctf.png',
+    image: '/certificates/POCTF-2026-01702.pdf',
+    document: '/certificates/POCTF-2026-01702.pdf',
+    uploadPath: 'public/certificates/POCTF-2026-01702.pdf',
     alt: 'Pointer Overflow CTF 2026 certificate',
     details: ['PARTICIPANT', 'CHALLENGE SOLVER'],
     accent: 'violet'
@@ -222,7 +223,7 @@ const Reveal = ({ children }: { children: React.ReactNode }) => {
 };
 
 const Resume = () => (
-  <a className="resume" href="/resume/Nguyen-Ngoc-Khai-Resume-English.pdf" download>
+  <a className="resume" href="/resume/Nguyen_Ngoc_Khai_Cybersecurity_Resume_2026_Balanced.pdf" download>
     <b>↓</b><span>DOWNLOAD RESUME<small>ENGLISH / PDF</small></span>
   </a>
 );
@@ -320,7 +321,7 @@ function Home() {
           <Reveal>
             <div className="eyebrow">03 / COMPETITIONS & CERTIFICATES</div>
             <h2 className="mega">CHALLENGES.<br />INVESTIGATIONS.<br />PROOF.</h2>
-            <p className="section-intro">Selected competition achievements. The Google SecOps Chronicle CTF certificate is embedded below; the Pointer Overflow certificate slot is reserved for its image.</p>
+            <p className="section-intro">Selected competition achievements. Both the Google SecOps Chronicle CTF and Pointer Overflow CTF completion certificates are embedded below.</p>
             <div className="achievement-grid">
               {awards.map((award) => (
                 <article className={'achievement ' + award.accent} key={award.title}>
