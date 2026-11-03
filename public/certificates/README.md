@@ -1,8 +1,8 @@
-# Certificate image uploads
+# Competition certificate PDFs
 
-Upload the two certificate images to this folder using these exact filenames:
+Place the official completion certificate PDFs in this folder using these filenames:
 
-- `google-secops-cymbal.png`
-- `pointer-overflow-ctf.png`
+- `Certificate-Khysdns.pdf` — Google SecOps Chronicle CTF / Cymbal Investigation
+- `POCTF-2026-01702.pdf` — Pointer Overflow CTF 2026
 
-The portfolio reads these files from the Achievements section. After uploading, GitHub Pages will publish them with the next successful deployment.
+The Achievements section embeds both files as PDFs. GitHub Pages publishes them under `/certificates/` after a successful deployment.
